@@ -8,10 +8,8 @@
 {% block styles %} {% bootstrap_css %}
   <link rel="stylesheet" href="{% static 'css/news.css' %}"> {% endblock %}
 </head>
-
 <body>
 <div class="container" style="background-color:#fff;">
-
      <div class="row">
 
   <form  action="{%url 'comment' image_id%}" method="post" enctype="multipart/form-data">
